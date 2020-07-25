@@ -18,12 +18,9 @@ $ sudo ~/Downloads/genymotion...xxx.bin
 ### # Install Nginx
 
 ```
-# ubuntu-version: ubuntu codename, for example `focal, xenial, etc`.
-$ deb https://nginx.org/packages/ubuntu/ *ubuntu-version* nginx
+$ sudo apt-get update
 
-$ deb-src https://nginx.org/packages/ubuntu/ *ubuntu-version* nginx
-
-$ sudo apt-get update & sudo apt-get install nginx
+$ sudo apt-get install nginx
 ```
 
 <hr>
