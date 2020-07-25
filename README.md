@@ -95,3 +95,10 @@ $ sudo apt install default-jre
 
 $ sudo apt install default-jdk
 ```
+
+### # Fix "/usr/bin/env: ‘bash\r’: No such file or directory"
+
+```
+$ sudo apt-get install -y dos2unix # Installs dos2unix Linux
+$ sudo find . -type f -exec dos2unix {} \; # recursively removes windows related stuff
+```
