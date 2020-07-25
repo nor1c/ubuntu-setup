@@ -29,6 +29,24 @@ $ sudo ~/Downloads/genymotion...xxx.bin
 
 ### # Install NodeJS
 
+```
+$ curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+
+$ sudo apt-get install -y nodejs
+```
+
+<hr>
+
+### # Install Yarn
+
+```
+$ curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+
+$ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+$ sudo apt-get update && sudo apt-get install yarn
+```
+
 <hr>
 
 ### # Install Deno
@@ -63,21 +81,3 @@ $ sudo apt install default-jre
 
 $ sudo apt install default-jdk
 ```
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
-
-<hr>
