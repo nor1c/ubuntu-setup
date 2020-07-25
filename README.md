@@ -17,13 +17,30 @@ $ sudo ~/Downloads/genymotion...xxx.bin
 
 ### # Install Nginx
 
+```
+# ubuntu-version: ubuntu codename, for example `focal, xenial, etc`.
+$ deb https://nginx.org/packages/ubuntu/ *ubuntu-version* nginx
+
+$ deb-src https://nginx.org/packages/ubuntu/ *ubuntu-version* nginx
+
+$ sudo apt-get update & sudo apt-get install nginx
+```
+
 <hr>
 
 ### # Install Apache
 
+```
+
+```
+
 <hr>
 
 ### # Install PHP
+
+```
+$ 
+```
 
 <hr>
 
