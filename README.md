@@ -33,6 +33,10 @@ $ sudo ~/Downloads/genymotion...xxx.bin
 
 ### # Install Deno
 
+```
+$ curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+
 <hr>
 
 ### # Install FLutter
