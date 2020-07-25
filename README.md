@@ -52,6 +52,14 @@ $ flutter doctor
 
 <hr>
 
+### # Install Java
+
+```
+$ sudo apt install default-jre
+
+$ sudo apt install default-jdk
+```
+
 <hr>
 
 <hr>
