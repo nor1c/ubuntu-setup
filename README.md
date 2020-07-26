@@ -129,3 +129,9 @@ $ sudo apt install default-jdk
 $ sudo apt-get install -y dos2unix # Installs dos2unix Linux
 $ sudo find . -type f -exec dos2unix {} \; # recursively removes windows related stuff
 ```
+
+### # Install MPC-HC
+
+```
+$ sudo snap install mpc-hc --edge
+```
