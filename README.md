@@ -37,15 +37,33 @@ $ sudo apt-get install nginx
 
 ```
 # Nginx
-
 $ sudo apt-get install php-fpm
 
 # another version of PHP
-
 $ sudo apt-get install software-properties-common
 $ sudo add-apt-repository ppa:ondrej/php
 $ sudo apt-get update
 $ sudo apt-get install php7.3-fpm
+```
+
+<hr>
+
+### # Change PHP Version
+
+```
+$ sudo update-alternatives --config php
+```
+
+<hr>
+
+### # Install phpMyAdmin
+
+```
+$ sudo apt-get update
+
+$ sudo apt-get install phpmyadmin
+
+$ sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin
 ```
 
 <hr>
