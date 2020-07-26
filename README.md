@@ -135,3 +135,13 @@ $ sudo find . -type f -exec dos2unix {} \; # recursively removes windows related
 ```
 $ sudo snap install mpc-hc --edge
 ```
+
+### # Nginx enable PHP
+
+```
+location ~\.php$ {
+  include snippets/fastcgi-php.conf;
+  fastcgi_pass unix:/run/php/php7.3-fpm.sock;
+  fastcgi_param SCRIPT_FILENAME $document_root/$fastcgi_script_name;
+}
+```
